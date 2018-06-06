@@ -1,0 +1,11 @@
+{
+  "bracketSpacing": false,
+  "singleQuote": true,
+  "semi": false,
+  "overrides": [
+    {
+      "files": [".lintstagedrc", ".prettierrc"],
+      "options": {"parser": "json"}
+    }
+  ]
+}

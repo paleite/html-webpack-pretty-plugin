@@ -1,0 +1,6 @@
+{
+  "linters": {
+    "*.{,m}js": ["npx prettier --write", "npx eslint --fix", "git add"],
+    "{,.}*{rc,.json}": ["npx prettier --write", "git add"]
+  }
+}

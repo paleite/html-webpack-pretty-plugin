@@ -1,0 +1,32 @@
+{
+  "extends": ["standard", "prettier", "prettier/standard"],
+  "plugins": ["standard"],
+  "rules": {
+    "class-methods-use-this": "error",
+    "complexity": ["off"],
+    "no-else-return": "error",
+    "no-empty-function": "error",
+    "no-eq-null": "error",
+    "no-useless-escape": "error",
+    "object-shorthand": [
+      "error",
+      "always",
+      {"avoidQuotes": true, "avoidExplicitReturnArrows": true}
+    ],
+    "prefer-arrow-callback": "error",
+    "prefer-template": "error",
+    "require-jsdoc": [
+      "warn",
+      {
+        "require": {
+          "FunctionDeclaration": true,
+          "ClassDeclaration": true,
+          "MethodDefinition": true,
+          "ArrowFunctionExpression": true,
+          "FunctionExpression": true
+        }
+      }
+    ],
+    "valid-jsdoc": "error"
+  }
+}
